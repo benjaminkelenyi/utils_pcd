@@ -1,6 +1,7 @@
 import open3d as o3d
 import os
 
+# PCL: rosrun pcl_ros pointcloud_to_pcd input:=/topic/name
 
 "--> change the 'pcd_folder' and 'ply_folder'"
 pcd_folder = "/home/benji/projects/D3Feat.pytorch/data/TUM/testing_debugging/dataset_freiburg1_xyz/"
